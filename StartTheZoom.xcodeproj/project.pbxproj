@@ -1,0 +1,227 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		528D987D2934EF330089DE79 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 528D987C2934EF210089DE79 /* LICENSE.txt */; };
+		528D988F2934F03F0089DE79 /* JJApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D988B2934EFEF0089DE79 /* JJApplicationDelegate.m */; };
+		528D98902934F0420089DE79 /* JJLicenseWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D988E2934EFEF0089DE79 /* JJLicenseWindow.m */; };
+		528D98912934F0440089DE79 /* JJMainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D988D2934EFEF0089DE79 /* JJMainMenu.m */; };
+		528D98922934F0480089DE79 /* JJMainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D98892934EFEF0089DE79 /* JJMainWindow.m */; };
+		528D98942934F04D0089DE79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D988A2934EFEF0089DE79 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		528D98652934EA900089DE79 /* StartTheZoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StartTheZoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		528D98782934EF210089DE79 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		528D98792934EF210089DE79 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		528D987A2934EF210089DE79 /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
+		528D987B2934EF210089DE79 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		528D987C2934EF210089DE79 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		528D98822934EFD30089DE79 /* StartTheZoom.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StartTheZoom.entitlements; sourceTree = "<group>"; };
+		528D98832934EFD30089DE79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528D98852934EFEF0089DE79 /* JJMainWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJMainWindow.h; sourceTree = "<group>"; };
+		528D98862934EFEF0089DE79 /* JJApplicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJApplicationDelegate.h; sourceTree = "<group>"; };
+		528D98872934EFEF0089DE79 /* JJLicenseWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJLicenseWindow.h; sourceTree = "<group>"; };
+		528D98882934EFEF0089DE79 /* JJMainMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJMainMenu.h; sourceTree = "<group>"; };
+		528D98892934EFEF0089DE79 /* JJMainWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJMainWindow.m; sourceTree = "<group>"; };
+		528D988A2934EFEF0089DE79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		528D988B2934EFEF0089DE79 /* JJApplicationDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJApplicationDelegate.m; sourceTree = "<group>"; };
+		528D988D2934EFEF0089DE79 /* JJMainMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJMainMenu.m; sourceTree = "<group>"; };
+		528D988E2934EFEF0089DE79 /* JJLicenseWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJLicenseWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		528D98622934EA900089DE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		528D985C2934EA900089DE79 = {
+			isa = PBXGroup;
+			children = (
+				528D987B2934EF210089DE79 /* README.md */,
+				528D987C2934EF210089DE79 /* LICENSE.txt */,
+				528D98782934EF210089DE79 /* Debug.xcconfig */,
+				528D98792934EF210089DE79 /* Release.xcconfig */,
+				528D987A2934EF210089DE79 /* Shared.xcconfig */,
+				528D98812934EFD30089DE79 /* nonsource */,
+				528D98842934EFEF0089DE79 /* source */,
+				528D98662934EA900089DE79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		528D98662934EA900089DE79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				528D98652934EA900089DE79 /* StartTheZoom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		528D98812934EFD30089DE79 /* nonsource */ = {
+			isa = PBXGroup;
+			children = (
+				528D98832934EFD30089DE79 /* Info.plist */,
+				528D98822934EFD30089DE79 /* StartTheZoom.entitlements */,
+			);
+			path = nonsource;
+			sourceTree = SOURCE_ROOT;
+		};
+		528D98842934EFEF0089DE79 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				528D98862934EFEF0089DE79 /* JJApplicationDelegate.h */,
+				528D988B2934EFEF0089DE79 /* JJApplicationDelegate.m */,
+				528D98872934EFEF0089DE79 /* JJLicenseWindow.h */,
+				528D988E2934EFEF0089DE79 /* JJLicenseWindow.m */,
+				528D98882934EFEF0089DE79 /* JJMainMenu.h */,
+				528D988D2934EFEF0089DE79 /* JJMainMenu.m */,
+				528D98852934EFEF0089DE79 /* JJMainWindow.h */,
+				528D98892934EFEF0089DE79 /* JJMainWindow.m */,
+				528D988A2934EFEF0089DE79 /* main.m */,
+			);
+			path = source;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		528D98642934EA900089DE79 /* StartTheZoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528D98752934EA910089DE79 /* Build configuration list for PBXNativeTarget "StartTheZoom" */;
+			buildPhases = (
+				528D98612934EA900089DE79 /* Sources */,
+				528D98622934EA900089DE79 /* Frameworks */,
+				528D98632934EA900089DE79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StartTheZoom;
+			productName = StartTheZoom;
+			productReference = 528D98652934EA900089DE79 /* StartTheZoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		528D985D2934EA900089DE79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					528D98642934EA900089DE79 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 528D98602934EA900089DE79 /* Build configuration list for PBXProject "StartTheZoom" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 528D985C2934EA900089DE79;
+			productRefGroup = 528D98662934EA900089DE79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				528D98642934EA900089DE79 /* StartTheZoom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		528D98632934EA900089DE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528D987D2934EF330089DE79 /* LICENSE.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		528D98612934EA900089DE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528D988F2934F03F0089DE79 /* JJApplicationDelegate.m in Sources */,
+				528D98922934F0480089DE79 /* JJMainWindow.m in Sources */,
+				528D98912934F0440089DE79 /* JJMainMenu.m in Sources */,
+				528D98942934F04D0089DE79 /* main.m in Sources */,
+				528D98902934F0420089DE79 /* JJLicenseWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		528D98732934EA910089DE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528D987A2934EF210089DE79 /* Shared.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		528D98742934EA910089DE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528D987A2934EF210089DE79 /* Shared.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		528D98762934EA910089DE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528D98782934EF210089DE79 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		528D98772934EA910089DE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528D98792934EF210089DE79 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		528D98602934EA900089DE79 /* Build configuration list for PBXProject "StartTheZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528D98732934EA910089DE79 /* Debug */,
+				528D98742934EA910089DE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528D98752934EA910089DE79 /* Build configuration list for PBXNativeTarget "StartTheZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528D98762934EA910089DE79 /* Debug */,
+				528D98772934EA910089DE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 528D985D2934EA900089DE79 /* Project object */;
+}
