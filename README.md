@@ -4,6 +4,8 @@ StartTheZoom is an app for macOS (10.13 High Sierra or later) that opens http an
 
 The Zoom app does not declare that it can open http and https URLs. Thus, sandboxed Mac App Store apps such as [Link Unshortener](https://underpassapp.com/LinkUnshortener/) and [StopTheMadness](https://underpassapp.com/StopTheMadness/) cannot open these URLs in Zoom. StartTheZoom can, because it is not sandboxed.
 
+See [StopTheMadness Web Rules](https://underpassapp.com/StopTheMadness/support-rules.html#web) for instructions on how to use StartTheZoom.
+
 ## Installing
 
 1. Download the [latest release](https://github.com/lapcat/StartTheZoom/releases/latest).
